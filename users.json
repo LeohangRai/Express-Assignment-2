@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "62397c366be0fdffe2c24339"
+  },
+  "username": "Leohang Rai",
+  "email": "raileohang@gmail.com",
+  "password": "$2a$08$zia34Jb/4NffWbBYmjJW.OChXD.Okrg6IOctlrqMJloBMdlHaC1Dq",
+  "address": "Kathmandu, Nepal",
+  "phone": 9860172681,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62397c506be0fdffe2c24342"
+  },
+  "username": "Sandip Thapa",
+  "email": "sandipthapa365@gmail.com",
+  "password": "$2a$08$5bli.n2oRXMQhycQGJIWEu5M605YRnm4nYnPFOjOeN5T5ACJY6dnu",
+  "address": "Naikap",
+  "phone": 9876543210,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62397c826be0fdffe2c2434a"
+  },
+  "username": "Crystal Dong",
+  "email": "crystal7@gmail.com",
+  "password": "$2a$08$yeWRfNc79.reVhMszTWRmuFv86.Z/2vIpEOP0sxwF8hJQAkAhub2a",
+  "address": "Kalanki",
+  "phone": 9876543211,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62397c9c6be0fdffe2c2434f"
+  },
+  "username": "Milon Rai",
+  "email": "milonrai.88@gmail.com",
+  "password": "$2a$08$MQ4z0pmAQLH/XdX9CGfNwOPKGCPQLe4WVdgrVCOGwfubz/ScoHCIe",
+  "address": "Koteshwor",
+  "phone": 9849024765,
+  "__v": 0
+}]

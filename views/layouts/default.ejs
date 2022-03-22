@@ -1,0 +1,26 @@
+<%- include('../partials/header.ejs') %>     
+
+<body>
+  <%- include('../partials/navbar.ejs') %>
+
+  <%- include('../partials/messages.ejs') %>
+  <%- body %>
+
+  <%- include('../partials/footer.ejs') %>
+
+  <script>
+    $(document).ready(function(){
+      console.log('hello')
+      $('.message').on('click', 'button', function(e){
+          e.preventDefault();
+          $('.message').slideUp()
+      })
+
+      setTimeout(function(e) {
+          $('.message').slideUp()
+      }, 5000)
+
+    })
+  </script>
+</body>
+</html>

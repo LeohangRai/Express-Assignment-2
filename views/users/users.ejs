@@ -1,0 +1,46 @@
+<div class="container">
+	<h3 class="text-center">List of Users</h3>
+	<table class="table table-bordered text-center mt-2">
+		<thead class="text-center bg-dark text-white">
+			<th>Username</th>
+			<th>Email</th>
+			<th>Address</th>
+			<th>Phone</th>
+			<th>Actions</th>
+		</thead>
+
+		<tbody class="text-center">
+			<% for(var i = 0; i < users.length; i++) { %>
+			<tr>
+				<td><%= users[i].username %></td>
+				<td><%= users[i].email %></td>
+				<td><%= users[i].address %></td>
+				<td><%= users[i].phone %></td>
+				<td class="d-flex align-items-center justify-content-center">
+					<a
+						href="/users/edit/<%= users[i]._id %>"
+						class="btn btn-sm btn-success"
+						>Edit</a
+					>
+					<form
+						action="/users/delete/<%= users[i]._id %>?_method=DELETE"
+						method="post"
+					>
+						<button
+							type="submit"
+							class="btn btn-sm btn-danger ml-2"
+						>
+							Delete
+						</button>
+					</form>
+				</td>
+			</tr>
+			<% } %>
+		</tbody>
+	</table>
+	<div class="d-flex flex-column justify-content-center align-items-center">
+		<a href="users/register" class="btn btn-sm btn-primary mt-3">
+			Add new user
+		</a>
+	</div>
+</div>
